@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    environment:
+      - UV_LINK_MODE=copy
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
