@@ -1,0 +1,5 @@
+[template]
+name = "fastapi-frontend"
+description = "FastAPI backend with Jinja2 HTML frontend"
+stack = ["python", "fastapi", "jinja2"]
+author = ""
